@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Deletion Request Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background-color: #fff;
+      padding: 40px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 15px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+    .subtitle {
+      color: #666;
+      margin-bottom: 40px;
+      font-size: 1.2em;
+    }
+    .app-links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin: 40px 0;
+    }
+    .app-link {
+      display: block;
+      background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+      color: white;
+      text-decoration: none;
+      padding: 20px 30px;
+      border-radius: 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+    }
+    .app-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0,123,255,0.4);
+      text-decoration: none;
+      color: white;
+    }
+    .napjokh-link {
+      background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+      box-shadow: 0 5px 15px rgba(40,167,69,0.3);
+    }
+    .napjokh-link:hover {
+      box-shadow: 0 8px 25px rgba(40,167,69,0.4);
+    }
+    .info-box {
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 30px;
+      text-align: left;
+    }
+    .info-box h3 {
+      color: #495057;
+      margin-top: 0;
+    }
+    .feature-list {
+      list-style: none;
+      padding: 0;
+    }
+    .feature-list li {
+      padding: 5px 0;
+      color: #6c757d;
+    }
+    .feature-list li:before {
+      content: "✅ ";
+      margin-right: 10px;
+    }
+    @media (min-width: 768px) {
+      .app-links {
+        flex-direction: row;
+        gap: 30px;
+      }
+      .app-link {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔗 Data Deletion Portal</h1>
+    <p class="subtitle">Choose your app to request data deletion</p>
+    
+    <div class="app-links">
+      <a href="napjokh-data-deletion.html" class="app-link napjokh-link">
+        📱 NapJokh App<br>
+        <small style="opacity: 0.9;">Request data deletion for NapJokh</small>
+      </a>
+      
+      <a href="data-deletion.html" class="app-link">
+        📱 General App<br>
+        <small style="opacity: 0.9;">Request data deletion for other apps</small>
+      </a>
+    </div>
+
+    <div class="info-box">
+      <h3>📋 What happens when you click?</h3>
+      <ul class="feature-list">
+        <li>Professional data deletion request page</li>
+        <li>Contact email for your specific app</li>
+        <li>In-app deletion instructions</li>
+        <li>7-day processing guarantee</li>
+        <li>Privacy compliant procedures</li>
+      </ul>
+    </div>
+
+    <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.9em;">
+      Your privacy matters. We process all data deletion requests promptly and securely.
+    </div>
+  </div>
+</body>
+</html>
